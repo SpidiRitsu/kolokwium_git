@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libliberino.so -o libliberino.so CMakeFiles/liberino.dir/src/libtest.cpp.o 

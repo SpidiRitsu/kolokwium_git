@@ -1,0 +1,2 @@
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/lib/libliberino.so
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/bin/myProgram
