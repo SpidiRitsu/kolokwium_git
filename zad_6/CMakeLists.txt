@@ -9,7 +9,8 @@ add_library(liberino SHARED src/libtest.cpp)
 
 install(TARGETS liberino DESTINATION lib)
 
-set(PROJECT_LINK_LIBS libliberino.so)
+SET(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
+
 link_directories("/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/lib")
 
 add_executable(${PROJECT_NAME} src/Student.cpp)

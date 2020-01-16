@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/myProgram")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/myProgram"
-         RPATH "")
+         RPATH "/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/lib")
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/Build/myProgram")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/myProgram" AND
@@ -66,7 +66,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/myProgram"
          OLD_RPATH "/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/Build:/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/lib:"
-         NEW_RPATH "")
+         NEW_RPATH "/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_6/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/myProgram")
     endif()
