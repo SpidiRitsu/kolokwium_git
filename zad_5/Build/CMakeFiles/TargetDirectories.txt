@@ -1,0 +1,7 @@
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/install/strip.dir
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/edit_cache.dir
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/myProgram.dir
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/rebuild_cache.dir
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/list_install_components.dir
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/install/local.dir
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/Build/CMakeFiles/install.dir

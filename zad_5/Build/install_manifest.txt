@@ -1,0 +1,6 @@
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/bin/myProgram
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/src/address.cpp
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/src/employee.cpp
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/src/main.cpp
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/src/address.h
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/src/employee.h

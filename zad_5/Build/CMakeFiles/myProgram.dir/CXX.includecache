@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/address.cpp
+string
+-
+
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/address.h
+stdio.h
+-
+
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/employee.cpp
+address.h
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/address.h
+
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/employee.h
+
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/main.cpp
+employee.h
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/employee.h
+address.h
+/home/spidi/school/kolokwium_ostatnie/kolokwium_git/zad_5/address.h
+
